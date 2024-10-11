@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntuy-latest
+    runs-on: ubuntu-latest
     steps:
       - name: ssh로 ec2 접속하기
         uses: appleboy/ssh-action@v1.0.3
