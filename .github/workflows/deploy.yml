@@ -18,6 +18,6 @@ jobs:
           script_stop: true
           script: |
             cd /home/ubuntu/2024springboot
-            git pull origin main
+            sudo git pull origin main
             cd Ex11_Food
-            ./gradlew clean build
+            ./gradlew bootwar
